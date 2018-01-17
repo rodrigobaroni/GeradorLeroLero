@@ -1,0 +1,6 @@
+framework module GeradorLeroLero {
+  umbrella header "GeradorLeroLero-umbrella.h"
+
+  export *
+  module * { export * }
+}
