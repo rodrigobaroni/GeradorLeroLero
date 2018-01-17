@@ -65,7 +65,7 @@ let leros = [
     ]
 ]
 
-class LeroLero {
+public class LeroLero {
     
     public class func geradorLeroLero() -> String {
         

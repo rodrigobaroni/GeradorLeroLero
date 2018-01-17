@@ -13,7 +13,7 @@
 		24119F7EE44B5F8C6647E867E0044C52 /* Pods-GeradorLeroLero_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F90E4F4BCCFA46F504E23574E4CC22 /* Pods-GeradorLeroLero_Example-dummy.m */; };
 		35EB51A9927D8BB974248EF18C42BAF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3C747870656EF6D565B7397AFBB679B4 /* Pods-GeradorLeroLero_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F86F89907207DE567958D07E01FDB1D6 /* Pods-GeradorLeroLero_Tests-dummy.m */; };
-		43DD1CF72010015F0092BB9B /* GeradorDeLeroLero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD1CF62010015F0092BB9B /* GeradorDeLeroLero.swift */; };
+		43DD1D1720100BAC0092BB9B /* GeradorDeLeroLero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD1D1620100BAC0092BB9B /* GeradorDeLeroLero.swift */; };
 		9C500076F1F67672FA1EDA1E91CF43E1 /* GeradorLeroLero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B48B8861C69D0EBBC7DB9F609601406 /* GeradorLeroLero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E221824049F83D943BADE7FF33DDD55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C90BC9244AE9630C1181FA207C1247C3 /* GeradorLeroLero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B808A20713BF560F07C11AF72C8CF60 /* GeradorLeroLero-dummy.m */; };
@@ -36,7 +36,7 @@
 		2B48B8861C69D0EBBC7DB9F609601406 /* GeradorLeroLero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeradorLeroLero-umbrella.h"; sourceTree = "<group>"; };
 		2E2F46A1FF0D5527C833886636902ECE /* GeradorLeroLero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GeradorLeroLero.modulemap; sourceTree = "<group>"; };
 		429F76305119EA5F6FCE88D78FE3FFCB /* Pods-GeradorLeroLero_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeradorLeroLero_Example-frameworks.sh"; sourceTree = "<group>"; };
-		43DD1CF62010015F0092BB9B /* GeradorDeLeroLero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeradorDeLeroLero.swift; sourceTree = "<group>"; };
+		43DD1D1620100BAC0092BB9B /* GeradorDeLeroLero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeradorDeLeroLero.swift; path = GeradorLeroLero/Classes/GeradorDeLeroLero.swift; sourceTree = "<group>"; };
 		4E0E08FEC60FBA577E4F176796335AC3 /* Pods-GeradorLeroLero_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeradorLeroLero_Tests-resources.sh"; sourceTree = "<group>"; };
 		584AC86BA2182A67C436206EC5810B0A /* Pods-GeradorLeroLero_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeradorLeroLero_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5BBB44D2F2B770F8F7D8D0C8AAD8114A /* Pods-GeradorLeroLero_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeradorLeroLero_Example-resources.sh"; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		8545ECDFA0A0013EC1CF43B9A10D9108 /* GeradorLeroLero */ = {
 			isa = PBXGroup;
 			children = (
-				43DD1CF62010015F0092BB9B /* GeradorDeLeroLero.swift */,
+				43DD1D1620100BAC0092BB9B /* GeradorDeLeroLero.swift */,
 				A0DC1CF9A651E839B2AB2A7A10E31D22 /* Support Files */,
 			);
 			name = GeradorLeroLero;
@@ -327,7 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90BC9244AE9630C1181FA207C1247C3 /* GeradorLeroLero-dummy.m in Sources */,
-				43DD1CF72010015F0092BB9B /* GeradorDeLeroLero.swift in Sources */,
+				43DD1D1720100BAC0092BB9B /* GeradorDeLeroLero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
